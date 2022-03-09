@@ -141,6 +141,8 @@ var endGame = function() {
   }
 };
 
+// go to shop between battles function
+
 var shop = function() {
   // ask player what they'd like to do
   var shopOptionPrompt = window.prompt(
@@ -196,8 +198,6 @@ var randomNumber = function(min, max) {
 
   return value;
 };
-
-
 
 // start first game when page loads
 startGame();
